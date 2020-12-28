@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #091921;
+}
+
+#cadre {
+    width: 60%;
+    margin: auto;
+    margin-top: 2rem;
+    height: 50rem;
+    overflow: hidden;
+}
+#container {
+    display: flex;
+}
+
+.image {
+    width: 101%;
+    height: 49.2rem;
+    display: inline-block;
+}
+#previous, #next {
+    position: absolute;
+    top: 35%;
+    z-index: 10;
+    color: ghostwhite;
+    font-size: 3rem;
+}
+
+#previous {
+    left: 20.4%;
+}
+
+#next {
+    left: 78.4%;
+}
